@@ -2,19 +2,22 @@
     text-align: center;
     text-decoration: none;
     font-family: 'Cinzel', serif;
+    
 }
 
 
 #container {
-    /* background-image: url(../images/background.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat; */
+    background-image: url(../images/background.jpg);
+    background-size: cover, auto, auto;
+    background-position: auto;
+    background-repeat: no-repeat;
     list-style-position: inside;
     font-family: 'Cinzel', serif;
     font-weight: 800;
     resize: both;
     margin-top: 50px;
+    padding: 20px;
+
 }
 
 
@@ -22,7 +25,15 @@
 #startGame {
     font-family: 'Cinzel', serif;
     position: center;
+    width: auto;
     /* margin: 40%; */
+}
+
+#submitAnswers {
+    font-family: 'Cinzel', serif;
+    position: center;
+    margin-top: 20px;
+    width: auto;
 }
 
 #startContainer {

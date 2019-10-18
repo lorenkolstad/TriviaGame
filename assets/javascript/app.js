@@ -5,7 +5,7 @@
 $("#startContainer").hide();
 let correctAnswers = 0;
 let wrongAnswers = 0;
-let totalAnswers = correctAnswers+wrongAnswers;
+let totalAnswers = 0;
 
 $("#startGame").on("click", function (event){
     event.preventDefault();
@@ -31,7 +31,11 @@ $("#submitAnswers").on("click", function (event){
     event.preventDefault();
     $("#endResults").show();
     $("#startContainer").hide();
+    $("#endResults").text("You guessed " + correctAnswers + " questions correctly!");
     console.log(event);
+    console.log(correctAnswers);
+    console.log(wrongAnswers);
+    alert("You guessed " + correctAnswers + " questions correctly!")
 
 })
 
@@ -44,7 +48,7 @@ $("#submitAnswers").on("click", function (event){
 function endGame() {
     //check the answers for each option and see if it's right or wrong. 
 
-    $("#endResults").append("You guessed " + correctAnswers + "Out of " + totalAnswers);
+    
 }
 
 // $("#endGame").on("click", function (event){
