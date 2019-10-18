@@ -4,9 +4,121 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed|Cinzel|Cormorant+Garamond&display=swap" rel="stylesheet">
+
+    <title>Best Friend Trivia</title>
 </head>
 <body>
+
+<div id="container">
+    <div id="buttonContainer">
+
+    <button id="startGame">Start Game!</button>
+
+    </div>
+
+    <div id="startContainer">
+
+    <!--This will contain the game.-->
+
+        <div id="question1">
+            <h2 id="">What percentage of dogs sleep in their owner's bed?</h2>
+            <input name="question1" id="question1option1" type="radio" value="twelve" data-answer="fourtyFive">
+            <label for="question1option1">12%</label>
+
+            <input name="question1" id="question1option2" type="radio" value="thirtyThree" data-answer="fourtyFive">
+            <label for="question1option1">33%</label>
+
+            <input name="question1" id="question1option3" type="radio" value="seventySix" data-answer="fourtyFive">
+            <label for="question1option1">76%</label>
+
+            <input name="question1" id="question1option4" type="radio" value="fourtyFive" data-answer="fourtyFive">
+            <label for="question1option1">45%</label>
+
+            <!-- <input name="question1" id="question1option4" type="radio" value="optionsAnswer" data-answer="correctAnswer">
+            <label for="question1option1">45%</label>  this is a sample of the syntax. value is going to be the value of that question and data-answer is going to be the same for every question as the correct answer.-->
+
+        </div>
+
+        <div id="question2">
+
+            <h2 id="">What percentage of pet owners sign their pet's name on holiday cards?</h2>
+            <input name="question2" id="question2option1" type="radio" value="seventy" data-answer="seventy">
+            <label for="question1option1">70%</label>
+
+            <input name="question2" id="question2option2" type="radio" value="thirty" data-answer="seventy">
+            <label for="question2option1">30%</label>
+
+            <input name="question2" id="question2option3" type="radio" value="sixty" data-answer="seventy">
+            <label for="question2option1">60%</label>
+
+            <input name="question2" id="question2option4" type="radio" value="twenty" data-answer="seventy">
+            <label for="question2option1">20%</label>
+
+        </div>
+
+        <div id="question3">
+
+            <h2 id="">Where did the "Australian Shepherd" dog breed originate from?</h2>
+            <input name="question3" id="question3option1" type="radio" value="canada" data-answer="america">
+            <label for="question3option1">Canada</label>
+
+            <input name="question3" id="question3option2" type="radio" value="england" data-answer="america">
+            <label for="question3option1">America</label>
+
+            <input name="question3" id="question3option3" type="radio" value="australia" data-answer="america">
+            <label for="question3option1">Australia</label>
+
+            <input name="question3" id="question3option4" type="radio" value="russia" data-answer="america">
+            <label for="question3option1">Russia</label>
+
+        </div>
+
+        <div id="question4">
+
+            <h2 id="">Approximately how many receptors does a dog have in it's nose?</h2>
+            <input name="question4" id="question4option1" type="radio" value="1000" data-answer="300Mil">
+            <label for="question4option1">1000</label>
+
+            <input name="question4" id="question4option2" type="radio" value="40000" data-answer="300Mil">
+            <label for="question4option1">40,000</label>
+
+            <input name="question4" id="question4option3" type="radio" value="300Mil" data-answer="300Mil">
+            <label for="question4option1">300 million</label>
+
+            <input name="question4" id="question4option4" type="radio" value="six" data-answer="300Mil">
+            <label for="question4option1">6</label>
+
+        </div>
+
+        <div id="question5">
+
+            <h2 id="">What is the heaviest breed of dog?</h2>
+            <input name="question5" id="question5option1" type="radio" value="bulldog" data-answer="mastiff">
+            <label for="question5option1">Bulldog</label>
+
+            <input name="question5" id="question5option2" type="radio" value="pitbull" data-answer="mastiff">
+            <label for="question5option1">Pit Bull</label>
+
+            <input name="question5" id="question5option3" type="radio" value="mastiff" data-answer="mastiff">
+            <label for="question5option1">Mastiff</label>
+
+            <input name="question5" id="question5option4" type="radio" value="corgi" data-answer="mastiff">
+            <label for="question5option1">Corgi</label>
     
+        </div>
+
+        
+        <button id="submitAnswers">Submit Answers</button>
+
+        <div id="endResults"></div>
+        
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+<script src="assets/javascript/app.js"></script>
 </body>
 </html>
