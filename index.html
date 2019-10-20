@@ -11,6 +11,7 @@
     <title>Best Friend Trivia</title>
 </head>
 <body>
+    <div id="backgroundImage"></div>
 
 <div id="container">
     <div id="buttonContainer">
@@ -19,7 +20,8 @@
 
     </div>
 
-    <div id="startContainer">
+    <div id="startContainer" class="display">
+        <div id="timer">Time: </div>
 
     <!--This will contain the game.-->
 
@@ -113,9 +115,10 @@
         
         <button id="submitAnswers">Submit Answers</button>
 
-        <div id="endResults"></div>
-
     </div>
+
+    <div id="endResults"></div>
+
 </div>
 
 <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
