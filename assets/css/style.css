@@ -30,8 +30,6 @@
     margin: 0 auto;
 }
 
-
-
 #startGame {
     font-family: 'Cinzel', serif;
     position: center;
@@ -44,6 +42,7 @@
     position: center;
     margin-top: 20px;
     width: auto;
+    
 }
 
 #startContainer {
@@ -64,4 +63,29 @@
     align-self: center;
     align-self: stretch;
   }
+
+#endResults {
+    text-align: center;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 800;
+    /* margin-left: 450px; */
+
+    /* text-align: center;
+    text-decoration: none;
+    max-width: 600px;
+    padding: 50px;
+    background: rgba(255,255,255,.2);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    margin-top: 10px;
+    margin-left: 375px;
+    margin-bottom: 10px;
+    margin-right: 200px;
+    align-items: center;
+    text-align: center;
+
+    margin: auto;
+    width: 50%;
+    align-self: center;
+    align-self: stretch; */
 }
